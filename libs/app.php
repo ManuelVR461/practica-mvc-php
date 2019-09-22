@@ -9,8 +9,8 @@ class App{
 
         $ruta = rtrim(ltrim($ruta,'/'),'/');
         $partes_ruta = explode('/',$ruta);
-
-        echo $nparam = sizeof($partes_ruta);
+        print_r($partes_ruta);
+        $nparam = sizeof($partes_ruta);
 
         if($nparam>1){
             $controllers = './controllers/'.$partes_ruta[1].'.php';

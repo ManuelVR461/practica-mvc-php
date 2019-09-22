@@ -6,7 +6,7 @@ botones.forEach(boton => {
         const matricula = this.dataset.matricula;
         const confirm = window.confirm("Deeseas eliminar al alumno "+ matricula + "?");
         if(confirm){
-            httpRequest("http://localhost/facilito/consulta/eliminarAlumno/" + matricula, function(){
+            httpRequest("http://localhost/mvc-php/consulta/eliminarAlumno/" + matricula, function(){
                 const tbody = document.querySelector("#tbody-alumnos");
                 const fila = document.querySelector("#fila-"+matricula);
 

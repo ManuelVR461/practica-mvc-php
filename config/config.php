@@ -1,6 +1,6 @@
 <?php
 
-define ('URL', 'http://localhost/facilito/');
+define ('URL', 'http://localhost/mvc-php/');
 
 define ('HOST','localhost');
 define ('DB','dbmvc');
